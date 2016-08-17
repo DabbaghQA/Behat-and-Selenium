@@ -2,12 +2,7 @@
   "name":         "DabbaghQA/Behat-and-Selenium",
   "description":  "For practicing purposes and therefore should not be taken into consideration",
 
-  "authors": [
-    {
-      "name":     "Mohammad Dabbagh",
-      "email":    "mdabbagh.mis@gmail.com",
-    }
-  ],
+  
   "require": {
     "jakoch/phantomjs-installer": "1.9.8",
     "behat/behat": "3.*@stable",
