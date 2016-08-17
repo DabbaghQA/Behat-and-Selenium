@@ -28,11 +28,13 @@ before_script:
     - "java -jar selenium-server-standalone-2.31.0.jar > /dev/null &"
     - sleep 5
 
-before_script:
+before_install:
   - phpenv config-rm xdebug.ini
   - composer self-update
   - composer --version
-
+install:
+  - composer install
+  - bin/behat --init 
 script:
     - phpunit path/to/tests
     - bin/behat
