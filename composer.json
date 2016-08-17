@@ -8,7 +8,6 @@
       "email":    "mdabbagh.mis@gmail.com",
     }
   ],
- 
   "require": {
     "jakoch/phantomjs-installer": "1.9.8",
     "behat/behat": "3.*@stable",
