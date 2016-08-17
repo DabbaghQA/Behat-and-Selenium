@@ -36,5 +36,4 @@ install:
   - composer install
   - bin/behat --init 
 script:
-    - phpunit path/to/tests
-    - bin/behat
+  - bin/behat
